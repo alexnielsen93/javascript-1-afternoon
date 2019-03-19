@@ -31,7 +31,7 @@ let devMountainGoal = null
 //plus the value of the name parameter.
 
 function greeting(name){
-  return `Hello${name}`
+  return `Hello, ${name}`
   
 }
 
@@ -42,7 +42,7 @@ function greeting(name){
 //Name it newGreeting.
 
 let newGreeting = function (name) {
-  return `Hello ${name}`
+  return `Hello, ${name}`
 }
 //////////////////PROBLEM 8////////////////////
 
@@ -50,7 +50,7 @@ let newGreeting = function (name) {
 //Name it finalGreeting.
 
 let finalGreeting = (name) => {
-  return `Hello ${name}`
+  return `Hello, ${name}`
 }
 
 //////////////////PROBLEM 9////////////////////
@@ -70,7 +70,7 @@ let dog= {
   name: "Nova",
   color : "black",
   age : 2,
-  goodGirl : true,
+  goodBoy : true,
 }
 
 //...access the dog's name from the object and assign it to a
@@ -126,7 +126,7 @@ function faveColorFinder(color){
   
   }
   else if(color === 'green'){
-    return "green is a solid favorite"
+    return "green is a solid favorite color"
   }
   else if(color === 'black'){
     return 'so trendy'
