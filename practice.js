@@ -40,7 +40,7 @@ function greeting(name){
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-let newGreetFunction = (name) => {
+let secondGreeting = function (name) {
   return `Hello ${name}`
 }
 //////////////////PROBLEM 8////////////////////
@@ -48,15 +48,16 @@ let newGreetFunction = (name) => {
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-//Code Here
+let newGreetFunction = (name) => {
+  return `Hello ${name}`
+}
 
 //////////////////PROBLEM 9////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
-
+let groceries = ['apples', 'milk','eggs','bread']
 //////////////////PROBLEM 10////////////////////
 
 //Create an object saved to the variable dog.
