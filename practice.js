@@ -16,15 +16,13 @@ let lovesCode = true
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
-
-//Code here
+let greatestFear = undefined
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
-//Code here
-
+let devMountainGoal = null
 //////////////////PROBLEM 6////////////////////
 
 //Create a function declaration called greeting that
@@ -32,7 +30,9 @@ let lovesCode = true
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-//Code here
+function greeting(name){
+  return `Hello ${name}`
+}
 
 
 //////////////////PROBLEM 7////////////////////
@@ -40,8 +40,9 @@ let lovesCode = true
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
-
+let newGreetFunction = (name) => {
+  return `Hello ${name}`
+}
 //////////////////PROBLEM 8////////////////////
 
 //Rewrite the function greeting as an arrow function.
