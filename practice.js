@@ -31,7 +31,8 @@ let devMountainGoal = null
 //plus the value of the name parameter.
 
 function greeting(name){
-  return `Hello ${name}`
+  return `Hello${name}`
+  as;dofjas =asd fasd
 }
 
 
@@ -40,7 +41,7 @@ function greeting(name){
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-let secondGreeting = function (name) {
+let newGreeting = function (name) {
   return `Hello ${name}`
 }
 //////////////////PROBLEM 8////////////////////
@@ -48,7 +49,7 @@ let secondGreeting = function (name) {
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-let newGreetFunction = (name) => {
+let finalGreeting = (name) => {
   return `Hello ${name}`
 }
 
