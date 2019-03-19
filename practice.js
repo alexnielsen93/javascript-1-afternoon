@@ -2,20 +2,17 @@
 
 //Create a variable called myName that is a string data type
 
-//Code here
-
+let myName = "Alex"
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
-//Code here
-
+let myAge = 26
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
-//Code here
-
+let lovesCode = true
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
