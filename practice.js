@@ -32,7 +32,7 @@ let devMountainGoal = null
 
 function greeting(name){
   return `Hello${name}`
-  as;dofjas =asd fasd
+  
 }
 
 
